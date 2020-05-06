@@ -484,14 +484,6 @@ F 3 "" H 6300 4900 50  0001 C CNN
 	1    6300 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 5200 6600 4750
-Wire Wire Line
-	6600 4750 6500 4750
-Wire Wire Line
-	6500 4750 6500 4650
-Wire Wire Line
-	6500 4650 5950 4650
 $Comp
 L Device:LED D2
 U 1 1 5EB45648
@@ -699,8 +691,6 @@ Wire Wire Line
 Wire Wire Line
 	7800 2850 8100 2850
 Connection ~ 7800 2850
-Wire Wire Line
-	7800 2850 7800 3500
 $Comp
 L power:GND #PWR0106
 U 1 1 5EBDD535
@@ -712,4 +702,14 @@ F 3 "" H 8100 2350 50  0001 C CNN
 	1    8100 2350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7800 2850 7800 3500
+Wire Wire Line
+	7800 3500 7800 4100
+Wire Wire Line
+	7800 4100 8350 4100
+Wire Wire Line
+	8350 4100 8350 5200
+Wire Wire Line
+	8350 5200 6600 5200
 $EndSCHEMATC

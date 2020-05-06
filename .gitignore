@@ -4,3 +4,5 @@
 *.sch-bak
 fp-info-cache
 *.kicad_pcb-bak
+_autosave-hades.sch
+*.net
