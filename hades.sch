@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Hades Pool Heat controller"
 Date "2020-05-06"
-Rev "1.0"
+Rev "1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -300,12 +300,12 @@ $EndComp
 $Comp
 L Device:R R4
 U 1 1 5EB4907C
-P 6100 3150
-F 0 "R4" V 6200 3150 50  0000 C CNN
-F 1 "1K" V 6100 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6030 3150 50  0001 C CNN
-F 3 "~" H 6100 3150 50  0001 C CNN
-	1    6100 3150
+P 6100 3250
+F 0 "R4" V 6200 3250 50  0000 C CNN
+F 1 "1K" V 6100 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6030 3250 50  0001 C CNN
+F 3 "~" H 6100 3250 50  0001 C CNN
+	1    6100 3250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -525,7 +525,7 @@ Wire Wire Line
 	6250 3500 6250 3550
 Text Label 6250 3050 0    50   ~ 0
 Tx
-Text Label 6250 3150 0    50   ~ 0
+Text Label 6250 3250 0    50   ~ 0
 Rx
 Text Label 2700 4200 0    50   ~ 0
 Rx
@@ -569,7 +569,6 @@ NoConn ~ 5950 3750
 NoConn ~ 5950 3650
 NoConn ~ 5950 3550
 NoConn ~ 5950 3450
-NoConn ~ 5950 3250
 NoConn ~ 1350 1900
 $Comp
 L Device:D_Schottky D3
@@ -712,4 +711,7 @@ Wire Wire Line
 	8350 4100 8350 5200
 Wire Wire Line
 	8350 5200 6600 5200
+NoConn ~ 5950 4650
+NoConn ~ 5950 3150
+NoConn ~ 2500 1850
 $EndSCHEMATC
