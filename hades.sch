@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Hades Pool Heat controller"
 Date "2020-05-06"
-Rev "1.2"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -417,8 +417,6 @@ F 3 "~" H 6200 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5950 4550 6050 4550
-Wire Wire Line
 	6350 4550 6400 4550
 $Comp
 L Connector:Screw_Terminal_01x02 J6
@@ -711,7 +709,11 @@ Wire Wire Line
 	8350 4100 8350 5200
 Wire Wire Line
 	8350 5200 6600 5200
-NoConn ~ 5950 4650
 NoConn ~ 5950 3150
 NoConn ~ 2500 1850
+Wire Wire Line
+	5950 4650 6050 4650
+Wire Wire Line
+	6050 4650 6050 4550
+NoConn ~ 5950 4550
 $EndSCHEMATC
